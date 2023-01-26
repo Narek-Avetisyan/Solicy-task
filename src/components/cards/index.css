@@ -1,0 +1,23 @@
+.card{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > span{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card > p{
+    font-size: 35px;
+    font-weight: bold;
+}

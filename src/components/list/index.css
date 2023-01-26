@@ -1,0 +1,9 @@
+.list{
+    height: 80vh;
+    margin-top: 20px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
